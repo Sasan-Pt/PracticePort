@@ -10,6 +10,7 @@ import Header from "./Components/Header/Header";
 import Main from "./Components/MainBody/Main";
 import Footer from "./Components/Footer/Footer";
 import ColorBody from "./Components/Footer/ColorBody";
+import Context from "./Components/Context/Context";
 
 function App() {
     const [mRespon,setMRespan]=useState(true)
@@ -17,13 +18,19 @@ function App() {
         setMRespan(!mRespon)
     }
   return (
+      <Context.Provider value={{
+          mRespon:mRespon,
+          setMRespan:setMRespan,
+          clicker:responClicker
+      }}>
       <div  className="grid grid-cols-custom ">
+
       <Router>
           <Routes>
               <Route path="/" element={
                   <Fragment>
                   <div className="col-start-2 col-end-3 text-white">
-                      <Header Clicked={responClicker} value={mRespon}/>
+                      <Header/>
                       {mRespon && <Main/>}
                   </div>
                       {mRespon &&
@@ -40,14 +47,18 @@ function App() {
               }/>
               <Route path="/:work" element={
                   <>
-                  <Header/>
-                  <Work/>
+                      <div className="col-start-2 col-end-3">
+                          <Header/>
+                          <Work/>
+                      </div>
                   </>
               }
               />
           </Routes>
       </Router>
+
       </div>
+      </Context.Provider>
 
   );
 }

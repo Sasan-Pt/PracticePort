@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {MenuOutlined} from "@ant-design/icons"
+import Context from "../../Context/Context";
 
-const Hamburger = ({show}:any) => {
+const Hamburger = () => {
+    const ctx:any=useContext(Context)
     return (
-        <div onClick={show} className="flex cResH:hidden text-white justify-between">
+        <div onClick={ctx.clicker} className="flex cResH:hidden text-white justify-between">
         <div className="flex mt-14 justify-between">
             adaptable
         </div>

@@ -5,7 +5,7 @@ import Header from "../../Header/Header";
 
 const Work = () => {
     let params= useParams()
-    if (params){
+    if (params.work==="work"){
         document.body.style.background="white"
     }
     return (

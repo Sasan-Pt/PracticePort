@@ -1,46 +1,55 @@
-import React, { useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import AntButton from "../Button";
 
 import {
-    Link
+    Link,
+    useParams
 } from "react-router-dom";
 import Hamburger from "./Components/hamburger";
 import ResMenu from "./Components/ResMenu";
+import Context from "../Context/Context";
 
 
+const Header = () => {
 
+    const ctx:any = useContext(Context)
 
-const Header = (props:any) => {
-    const mRespond = props.value
-    const respondClicker = props.Clicked
+    let params= useParams()
 
 
     useEffect(()=>{
 
-        if(mRespond){
+       if(ctx.mRespon){
             document.body.style.background="black"
-        }if (!mRespond) {
+        }if (!ctx.mRespon) {
             document.body.style.background="#765cff"
         }
     })
 
+    if (ctx.mRespon){
+        return (
+            <div>
+                <Hamburger />
+                <nav className="mt-14 text-xl font-bold cResp:hidden">
+                    <ul>
+                        <Link to="/work" className="float-left">adaptable.</Link>
+                        <Link to="/work" className="float-right pl-8 "><AntButton stylee="border-white hover:bg-white hover:text-black"/></Link>
+                        <Link to="/work" className="float-right pl-8">Contact</Link>
+                        <Link to="/work" className="float-right pl-8">Journal</Link>
+                        <Link to="/work" className="float-right pl-8">WhitePapers</Link>
+                        <Link to="/work" className="float-right pl-8">Services</Link>
+                        <Link to="/work" className="float-right pl-8">Studio</Link>
+                        <Link to="/work" className="float-right pl-8">Work</Link>
+                    </ul>
+                </nav>
+            </div>
+        )
+    }
     return (
-        <div>
-            <Hamburger show={respondClicker}/>
-            <nav className="mt-14 text-xl font-bold cResp:hidden">
-                <ul>
-                    <Link to="/work" className="float-left">adaptable.</Link>
-                    <Link to="/work" className="float-right pl-8 "><AntButton stylee="border-white hover:bg-white hover:text-black"/></Link>
-                    <Link to="/work" className="float-right pl-8">Contact</Link>
-                    <Link to="/work" className="float-right pl-8">Journal</Link>
-                    <Link to="/work" className="float-right pl-8">WhitePapers</Link>
-                    <Link to="/work" className="float-right pl-8">Services</Link>
-                    <Link to="/work" className="float-right pl-8">Studio</Link>
-                    <Link to="/work" className="float-right pl-8">Work</Link>
-                </ul>
-            </nav>
-            {!mRespond ? <ResMenu/> :null}
-        </div>
+        <>
+        <Hamburger />
+        <ResMenu/>
+        </>
     );
 };
 
