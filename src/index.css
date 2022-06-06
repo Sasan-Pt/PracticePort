@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '~antd/dist/antd.css';
+
+body{
+    background-color: black;
+}
+
+.anticon-play-circle:hover{
+    font-Size: 160px !important;
+}
