@@ -15,22 +15,16 @@ const Header = () => {
     const ctx:any = useContext(Context)
 
     let params= useParams()
+    console.log(params)
 
 
-    useEffect(()=>{
 
-       if(ctx.mRespon){
-            document.body.style.background="black"
-        }if (!ctx.mRespon) {
-            document.body.style.background="#765cff"
-        }
-    })
 
     if (ctx.mRespon){
         return (
-            <div>
+            <div className="AfterCboth">
                 <Hamburger />
-                <nav className="mt-14 text-xl font-bold cResp:hidden">
+                <nav className="mt-14 text-xl font-bold cResp:hidden" >
                     <ul>
                         <Link to="/work" className="float-left">adaptable.</Link>
                         <Link to="/work" className="float-right pl-8 "><AntButton stylee="border-white hover:bg-white hover:text-black"/></Link>

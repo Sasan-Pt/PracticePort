@@ -10,8 +10,9 @@ const Work = () => {
     }
     return (
         <Fragment>
-        <div>
-            hi
+        <div className="mt-20 ">
+            sadas
+
         </div>
         </Fragment>
     );

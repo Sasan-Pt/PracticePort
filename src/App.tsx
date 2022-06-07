@@ -48,7 +48,8 @@ function App() {
               <Route path="/:work" element={
                   <>
                       <div className="col-start-2 col-end-3">
-                          <Header/>
+                              <Header/>
+                          <div className="clear-both"></div>
                           <Work/>
                       </div>
                   </>
