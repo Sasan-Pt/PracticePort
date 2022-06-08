@@ -41,6 +41,9 @@ module.exports = {
       brightness: {
         "percent": '50%',
       },
+      colors: {
+        'silver-grey': '#f6f6f6',
+      },
     },
   },
   variants: {
