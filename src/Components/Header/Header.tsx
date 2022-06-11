@@ -18,16 +18,20 @@ const Header = () => {
     console.log(params)
 
 
+    let color=null
 
+    if (params.work==="work"){
+        color="text-black border-black"
+    }
 
     if (ctx.mRespon){
         return (
-            <div className="AfterCboth">
+            <div>
                 <Hamburger />
                 <nav className="mt-14 text-xl font-bold cResp:hidden" >
                     <ul>
                         <Link to="/work" className="float-left">adaptable.</Link>
-                        <Link to="/work" className="float-right pl-8 "><AntButton stylee="border-white hover:bg-white hover:text-black"/></Link>
+                        <Link to="/work" className="float-right pl-8 "><AntButton stylee={`border-white hover:bg-white hover:text-black ${color}`}/></Link>
                         <Link to="/work" className="float-right pl-8">Contact</Link>
                         <Link to="/work" className="float-right pl-8">Journal</Link>
                         <Link to="/work" className="float-right pl-8">WhitePapers</Link>

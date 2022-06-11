@@ -5,7 +5,6 @@ import {
     Routes
 } from "react-router-dom";
 import Work from "./Components/AltPages/Work/Work";
-import Invalid from "./Components/404Pages/404Pages";
 import Header from "./Components/Header/Header";
 import Main from "./Components/MainBody/Main";
 import Footer from "./Components/Footer/Footer";
@@ -35,10 +34,10 @@ function App() {
                   </div>
                       {mRespon &&
                           <>
-                          <div className="col-start-1 col-end-4 w-full">
+                          <div className="col-start-1 col-end-4 w-full text-white">
                               <ColorBody/>
                           </div>
-                          <div className="col-start-2 col-end-3">
+                          <div className="col-start-2 col-end-3 text-white">
                           <Footer/>
                           </div>
                           </>
@@ -47,9 +46,9 @@ function App() {
               }/>
               <Route path="/:work" element={
                   <>
-                      <div className="col-start-2 col-end-3">
+                      <div className="col-start-2 col-end-3 text-black">
                               <Header/>
-                          <div className="clear-both"></div>
+                          <div className="AfterCboth"></div>
                           <Work/>
                       </div>
                   </>

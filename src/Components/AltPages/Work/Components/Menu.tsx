@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Selector from "./Selector";
 
 
 const Menu = () => {
@@ -11,7 +12,8 @@ const Menu = () => {
                     })}
                 </>
             </nav>
-            <div className="cResH:hidden">here i am</div>
+            <div className="cResH:hidden"><Selector/></div>
+
         </>
     );
 };

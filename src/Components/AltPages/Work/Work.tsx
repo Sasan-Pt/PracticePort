@@ -1,6 +1,5 @@
 import React,{Fragment} from 'react';
 import {useParams} from "react-router-dom"
-import Header from "../../Header/Header";
 import Menu from "./Components/Menu";
 
 
