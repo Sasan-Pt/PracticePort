@@ -10,6 +10,7 @@ import Main from "./Components/MainBody/Main";
 import Footer from "./Components/Footer/Footer";
 import ColorBody from "./Components/Footer/ColorBody";
 import Context from "./Components/Context/Context";
+import Invalid from "./Components/404Pages/404Pages";
 
 function App() {
     const [mRespon,setMRespan]=useState(true)
@@ -44,7 +45,7 @@ function App() {
                       }
                   </Fragment>
               }/>
-              <Route path="/:work" element={
+              <Route path="/lorem/:work" element={
                   <>
                       <div className="col-start-2 col-end-3 text-black">
                               <Header/>
@@ -54,6 +55,7 @@ function App() {
                   </>
               }
               />
+              <Route path="/*" element={<Invalid/>}/>
           </Routes>
       </Router>
 

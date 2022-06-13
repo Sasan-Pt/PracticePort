@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react';
 import {useParams} from "react-router-dom"
 import Menu from "./Components/Menu";
+import LayPictures from "./Components/LayPictures";
 
 
  const Work = () => {
@@ -14,6 +15,7 @@ import Menu from "./Components/Menu";
         <Fragment>
         <div className="mt-16">
             <Menu/>
+            <LayPictures/>
         </div>
         </Fragment>
     );

@@ -23,7 +23,7 @@ const Selector = () => (
         }
     >
         {["All","Charity", "Corporate","Digital Products","E-Commerace","leisure","Property"].map(x=>{
-            return <option className=" p-2 rounded-xl ml-2">{x}</option>
+            return <Option className=" p-2 rounded-xl ml-2">{x}</Option>
         })}
 
     </Select>

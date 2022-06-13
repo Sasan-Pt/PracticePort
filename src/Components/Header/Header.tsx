@@ -30,14 +30,14 @@ const Header = () => {
                 <Hamburger />
                 <nav className="mt-14 text-xl font-bold cResp:hidden" >
                     <ul>
-                        <Link to="/work" className="float-left">adaptable.</Link>
-                        <Link to="/work" className="float-right pl-8 "><AntButton stylee={`border-white hover:bg-white hover:text-black ${color}`}/></Link>
-                        <Link to="/work" className="float-right pl-8">Contact</Link>
-                        <Link to="/work" className="float-right pl-8">Journal</Link>
-                        <Link to="/work" className="float-right pl-8">WhitePapers</Link>
-                        <Link to="/work" className="float-right pl-8">Services</Link>
-                        <Link to="/work" className="float-right pl-8">Studio</Link>
-                        <Link to="/work" className="float-right pl-8">Work</Link>
+                        <Link to="/Invalid" className="float-left">adaptable.</Link>
+                        <Link to="/Invalid" className="float-right pl-8 "><AntButton stylee={`border-white hover:bg-white hover:text-black ${color}`}/></Link>
+                        <Link to="/Invalid" className="float-right pl-8">Contact</Link>
+                        <Link to="/Invalid" className="float-right pl-8">Journal</Link>
+                        <Link to="/Invalid" className="float-right pl-8">WhitePapers</Link>
+                        <Link to="/Invalid" className="float-right pl-8">Services</Link>
+                        <Link to="/Invalid" className="float-right pl-8">Studio</Link>
+                        <Link to="/lorem/work" className="float-right pl-8">Work</Link>
                     </ul>
                 </nav>
             </div>
