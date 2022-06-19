@@ -33,7 +33,9 @@ const News = () => {
             <div className="grid justify-between mt-24  ">
             <div className="flex gap-x-14 cRes:flex-col cRes:gap-y-10">
                 <div className="relative flex justify-center flex-col items-center overflow-hidden">
-                    <div><img src="https://assets.weareadaptable.com/app/uploads/2019/09/04103057/80D80100-0F4F-42C8-9BB4-2AE63BA71ABC-2-1-1024x678.jpeg" className="hover:scale-150 brightness-percent"/></div>
+                    <div>
+                        <img src="https://assets.weareadaptable.com/app/uploads/2019/09/04103057/80D80100-0F4F-42C8-9BB4-2AE63BA71ABC-2-1-1024x678.jpeg"
+                             className="hover:scale-150 brightness-percent"/></div>
                     <div className="absolute ">
                         Our framework is proven to deliver results for our clients.
                         <div>

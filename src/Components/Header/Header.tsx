@@ -36,7 +36,7 @@ const Header = () => {
                         <Link to="/Invalid" className="float-right pl-8">Journal</Link>
                         <Link to="/Invalid" className="float-right pl-8">WhitePapers</Link>
                         <Link to="/Invalid" className="float-right pl-8">Services</Link>
-                        <Link to="/Invalid" className="float-right pl-8">Studio</Link>
+                        <Link to="/lorem/lorem/Studio" className="float-right pl-8">Studio</Link>
                         <Link to="/lorem/work" className="float-right pl-8">Work</Link>
                     </ul>
                 </nav>

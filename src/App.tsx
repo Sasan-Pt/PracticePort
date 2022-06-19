@@ -11,6 +11,10 @@ import Footer from "./Components/Footer/Footer";
 import ColorBody from "./Components/Footer/ColorBody";
 import Context from "./Components/Context/Context";
 import Invalid from "./Components/404Pages/404Pages";
+import Studio from "./Components/AltPages/Studio/Studio";
+import Crousel from "./Components/AltPages/Studio/Crousel";
+import Test from "./test"
+
 
 function App() {
     const [mRespon,setMRespan]=useState(true)
@@ -23,7 +27,7 @@ function App() {
           setMRespan:setMRespan,
           clicker:responClicker
       }}>
-      <div  className="grid grid-cols-custom ">
+     {/* <div  className="grid grid-cols-custom ">*/}
 
       <Router>
           <Routes>
@@ -51,15 +55,36 @@ function App() {
                               <Header/>
                           <div className="AfterCboth"></div>
                           <Work/>
+
+                      </div>
+                      <div className="col-start-1 col-end-4 w-full text-white">
+                          <ColorBody/>
+                      </div>
+                      <div className="col-start-1 col-end-4 text-white bg-black pl-28 pr-28">
+                              <Footer/>
                       </div>
                   </>
               }
               />
+              <Route path="/lorem/lorem/:Studio" element={
+                  <>
+                  <div className="col-start-2 col-end-3" >
+                      <Header/>
+                      <div className="AfterCboth"></div>
+                      <Studio/>
+                  </div>
+                      <div className="col-start-1 col-end-4">
+                          <Crousel/>
+                      </div>
+                  </>
+                  }
+              />
               <Route path="/*" element={<Invalid/>}/>
+              <Route path="/test" element={<Test/>}/>
           </Routes>
       </Router>
 
-      </div>
+     {/* </div>*/}
       </Context.Provider>
 
   );
