@@ -14,6 +14,7 @@ import Invalid from "./Components/404Pages/404Pages";
 import Studio from "./Components/AltPages/Studio/Studio";
 import Crousel from "./Components/AltPages/Studio/Crousel";
 import Test from "./test"
+import Blackpara from "./Components/AltPages/Studio/Components/blackpara";
 
 
 function App() {
@@ -27,8 +28,7 @@ function App() {
           setMRespan:setMRespan,
           clicker:responClicker
       }}>
-     {/* <div  className="grid grid-cols-custom ">*/}
-
+<div  className="grid grid-cols-custom ">
       <Router>
           <Routes>
               <Route path="/" element={
@@ -75,7 +75,15 @@ function App() {
                   </div>
                       <div className="col-start-1 col-end-4">
                           <Crousel/>
+                          <div className="grid grid-cols-custom bg-black">
+                              <div className="col-start-2 col-end-3">
+                              <Blackpara/>
+                              </div>
+                          </div>
                       </div>
+
+
+
                   </>
                   }
               />
@@ -84,7 +92,7 @@ function App() {
           </Routes>
       </Router>
 
-     {/* </div>*/}
+     </div>
       </Context.Provider>
 
   );

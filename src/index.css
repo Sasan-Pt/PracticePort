@@ -11,3 +11,9 @@ body{
 .anticon-play-circle:hover{
     font-Size: 160px !important;
 }
+.slick-dots li{
+    background: #1890ff !important;
+}
+.slick-dots li.slick-active button{
+    background: #1890ff !important;
+}
