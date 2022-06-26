@@ -15,6 +15,7 @@ import Studio from "./Components/AltPages/Studio/Studio";
 import Crousel from "./Components/AltPages/Studio/Crousel";
 import Test from "./test"
 import Blackpara from "./Components/AltPages/Studio/Components/blackpara";
+import Overlapp from "./Components/AltPages/Studio/Components/overlapp";
 
 
 function App() {
@@ -80,6 +81,8 @@ function App() {
                               <Blackpara/>
                               </div>
                           </div>
+                          <div className="AfterCboth"></div>
+                          <Overlapp/>
                       </div>
 
 

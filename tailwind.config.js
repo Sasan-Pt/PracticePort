@@ -28,7 +28,8 @@ module.exports = {
         "40p":"42%",
         "44p":"100%",
         "20p":"120vh",
-        "10p":"50vh"
+        "10p":"50vh",
+
       },
       screens: {
         "cResp": {"max":"1198px"},
