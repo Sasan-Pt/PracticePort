@@ -14,7 +14,7 @@ import { useState } from 'react';
 const Crousel = () => {
     const [dotPosition, setDotPosition] = useState('left');
 
-    const handlePositionChange = ({ target: { value } }:any) => {
+    const handlePositionChange = ({ target: { value }}:any) => {
         setDotPosition(value);
     };
 

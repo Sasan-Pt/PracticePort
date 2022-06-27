@@ -7,20 +7,9 @@ import News from "./Components/News";
 import Context from "../Context/Context";
 
 
+const Main = () => {
 
-const Main = (props:any) => {
-
-    const ctx:any = useContext(Context)
-
-    useEffect(()=>{
-
-        if(ctx.mRespon){
-            document.body.style.background="black"
-        }if (!ctx.mRespon) {
-            document.body.style.background="#765cff"
-        }
-    })
-
+    const ctx = useContext(Context)
 
     return (
         <Fragment>

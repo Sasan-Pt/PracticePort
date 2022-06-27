@@ -12,7 +12,7 @@ import Context from "../Context/Context";
 
 const Header = () => {
 
-    const ctx:any = useContext(Context)
+    const ctx = useContext(Context)
 
     let params= useParams()
     console.log(params)
@@ -23,8 +23,16 @@ const Header = () => {
     if (params.work==="work"){
         color="text-black border-black"
     }
+    useEffect(()=>{
 
-    if (ctx.mRespon){
+        if(ctx?.mRespon && Object.keys(params).length===0){
+            document.body.style.background="black"
+        }if (!ctx?.mRespon) {
+            document.body.style.background="#765cff"
+        }
+    })
+
+    if (ctx?.mRespon){
         return (
             <div>
                 <Hamburger />

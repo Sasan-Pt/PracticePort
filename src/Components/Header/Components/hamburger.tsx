@@ -4,7 +4,7 @@ import Context from "../../Context/Context";
 import {useParams} from "react-router-dom"
 
 const Hamburger = () => {
-    const ctx:any=useContext(Context)
+    const ctx=useContext(Context)
     let params= useParams()
     let color=null
 
@@ -12,7 +12,7 @@ const Hamburger = () => {
         color="text-black"
     }
     return (
-        <div onClick={ctx.clicker} className="flex cResH:hidden text-white justify-between">
+        <div onClick={ctx?.clicker} className="flex cResH:hidden text-white justify-between">
         <div className={`flex mt-14 justify-between ${color}`}>
             adaptable
         </div>

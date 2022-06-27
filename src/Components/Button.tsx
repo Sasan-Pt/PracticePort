@@ -1,7 +1,10 @@
 import React, {Fragment} from 'react';
 import { Button } from 'antd';
 
-const AntButton=({stylee}:any) => (
+type Props={
+    stylee:string
+}
+const AntButton=({stylee}:Props) => (
     <Fragment>
         <Button type="primary" className={stylee} >Primary Button</Button>
     </Fragment>

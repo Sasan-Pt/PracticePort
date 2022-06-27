@@ -84,9 +84,6 @@ function App() {
                           <div className="AfterCboth"></div>
                           <Overlapp/>
                       </div>
-
-
-
                   </>
                   }
               />

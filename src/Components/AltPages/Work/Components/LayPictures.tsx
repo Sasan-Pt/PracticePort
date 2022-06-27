@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Link
 } from "react-router-dom";
-import Pics from "./Pics";
+
 
 const LayPictures = (props:any) => {
     console.log(props)
