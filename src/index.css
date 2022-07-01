@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.anticon-play-circle:hover{
-    font-Size: 160px !important;
+.anticon-play-circle:hover {
+  font-size: 160px !important;
 }
-.slick-dots li{
-    background: #1890ff !important;
+.slick-dots li {
+  background: #1890ff !important;
 }
-.slick-dots li.slick-active button{
-    background: #1890ff !important;
+.slick-dots li.slick-active button {
+  background: #1890ff !important;
 }

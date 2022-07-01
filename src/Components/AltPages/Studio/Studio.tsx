@@ -1,27 +1,20 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react";
 import Headerstud from "./Components/Headerstud";
-import {useParams} from 'react-router-dom'
+import { useParams } from "react-router-dom";
 import Crousel from "./Crousel";
 
-
 const Studio = () => {
-    let params= useParams()
+  let params = useParams();
 
-    let color=null
-
-    if (params.Studio==="Studio"){
-        color="text-black border-black"
-    }
-    useEffect(()=>{
-        document.body.style.background="white"
-    })
-    return (
-        <>
-            <Headerstud/>
-        </>
-    );
+  let color = null;
+  useEffect(() => {
+    document.body.style.background = "white";
+  });
+  return (
+    <>
+      <Headerstud />
+    </>
+  );
 };
-
-
 
 export default Studio;
