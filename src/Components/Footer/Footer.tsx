@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="flex justify-between cRes:justify-start cRes:block mt-14">
+      <div className="flex justify-between cRes:justify-start cRes:block mt-14 pt-11">
         <div className="flex cRes:flex-col">
           <div>
             <ul>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between mt-14 mb-16 cRes:flex-col">
+      <div className="flex justify-between mt-14 pb-11 cRes:flex-col">
         <div className="flex">
           <div>Privacy Policy</div>
           <div className="ml-8">SiteMap</div>

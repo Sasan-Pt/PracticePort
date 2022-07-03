@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f6c14b-7f93-47f3-9a24-5624e24c05b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StudioSubPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/WorkSubPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AltPages/Contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ContactSubPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/404Pages/404Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/404Pages/404Pages.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Endstudio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Endstudio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Headerstud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Headerstud.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/blackpara.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/blackpara.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/overlapp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/overlapp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Crousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Crousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Studio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Studio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/LayPictures.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/LayPictures.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Pics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Pics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Selector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Work/Components/Selector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Work/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Context/Context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Context/Context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/ColorBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/ColorBody.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Components/ResMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Components/ResMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Components/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Components/hamburger.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainBody/Components/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainBody/Components/News.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainBody/Components/Paragh.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainBody/Components/Paragh.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainBody/Components/sBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainBody/Components/sBody.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainBody/Components/videos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainBody/Components/videos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainBody/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainBody/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StudioSubPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StudioSubPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +60,11 @@
       <recent name="D:\Projects\practiceph1\pra3\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\practiceph1\pra4\port2\src\Components\AltPages\Contact" />
       <recent name="D:\Projects\practiceph1\pra4\port2\src\Components" />
       <recent name="D:\Projects\practiceph1\pra4\port2\src\Components\Store" />
       <recent name="D:\Projects\practiceph1\pra4\port2\src\Components\Footer" />
       <recent name="D:\Projects\practiceph1\pra4\port2\src\Components\MainBody" />
-      <recent name="D:\Projects\practiceph1\pra4\port2\src\Components\MainBody\Components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -160,7 +134,9 @@
       <workItem from="1656416665985" duration="8431000" />
       <workItem from="1656480764219" duration="2999000" />
       <workItem from="1656580601484" duration="5033000" />
-      <workItem from="1656668514661" duration="9243000" />
+      <workItem from="1656668514661" duration="9614000" />
+      <workItem from="1656749612579" duration="11803000" />
+      <workItem from="1656853676267" duration="7504000" />
     </task>
     <servers />
   </component>

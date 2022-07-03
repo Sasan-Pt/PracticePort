@@ -2,9 +2,9 @@ import React from "react";
 
 const Overlapp = () => {
   return (
-    <div className="isolate h-80">
-      <div className="flex bg-[#765cff] relative right-0 bottom-52 cResp:static cResp:bottom-0 cRes:justify-start isolate ">
-        <div className="flex  absolute  bg-[#765cff] right-0  justify-center items-center cRes:flex-col  h-[54vh] w-90p cRes:w-full  cRes:items-start cRes:pt-8 cRes:pl-6">
+    <div className="isolate">
+      <div className="flex bg-[#765cff] relative right-0 bottom-52 cResp:static cRes:static cResp:bottom-0 cRes:justify-start isolate ">
+        <div className="flex  absolute cResp:static cRes:static bg-[#765cff] cRes:h-full right-0  justify-center items-center cRes:flex-col  h-[54vh] w-90p cRes:w-full  cRes:items-start cRes:pt-8 cRes:pl-6">
           <div className="flex basis-3/4 text-4xl font-bold cResp:text-2xl  cRes:items-center">
             “Our brief called for a team of specialist designers to review our
             site & develop a consistent visual language. What Adaptable actually

@@ -16,6 +16,8 @@ import Endstudio from "./Components/AltPages/Studio/Components/Endstudio";
 import LandingPage from "./Components/LandingPage";
 import WorkSubPage from "./Components/WorkSubPage";
 import StudioSubPage from "./Components/StudioSubPage";
+import Contact from "./Components/AltPages/Contact/Contact";
+import ContactSubPage from "./Components/ContactSubPage";
 
 function App() {
   const [mRespon, setMRespan] = useState(true);
@@ -36,6 +38,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/Work" element={<WorkSubPage />} />
             <Route path="/Studio" element={<StudioSubPage />} />
+            <Route path="/Contact" element={<ContactSubPage />} />
             <Route path="/*" element={<Invalid />} />
             <Route path="/test" element={<Test />} />
           </Routes>

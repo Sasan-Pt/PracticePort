@@ -1,7 +1,7 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import AntButton from "../Button";
 
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Hamburger from "./Components/hamburger";
 import ResMenu from "./Components/ResMenu";
 import Context from "../Context/Context";
@@ -28,18 +28,10 @@ const Header = ({ ButtonColor }: Props) => {
             <Link to="/Invalid" className="float-right pl-8 ">
               <AntButton stylee={` hover:bg-white hover:text-black ${color}`} />
             </Link>
-            <Link to="/Invalid" className="float-right pl-8">
+            <Link to="/Contact" className="float-right pl-8">
               Contact
             </Link>
-            <Link to="/Invalid" className="float-right pl-8">
-              Journal
-            </Link>
-            <Link to="/Invalid" className="float-right pl-8">
-              WhitePapers
-            </Link>
-            <Link to="/Invalid" className="float-right pl-8">
-              Services
-            </Link>
+
             <Link to="/Studio" className="float-right pl-8">
               Studio
             </Link>

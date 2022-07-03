@@ -5,6 +5,9 @@ import Crousel from "./AltPages/Studio/Crousel";
 import Blackpara from "./AltPages/Studio/Components/blackpara";
 import Overlapp from "./AltPages/Studio/Components/overlapp";
 import Endstudio from "./AltPages/Studio/Components/Endstudio";
+import Footer from "./Footer/Footer";
+
+import { Link } from "react-router-dom";
 
 const StudioSubPage = () => {
   return (
@@ -24,7 +27,14 @@ const StudioSubPage = () => {
         <div className="AfterCboth"></div>
         <Overlapp />
         <div className="AfterCboth"></div>
-        <Endstudio />
+        <div className="grid grid-cols-custom">
+          <div className=" col-start-2 col-end-3">
+            <Endstudio />
+          </div>
+        </div>
+        <div className="col-start-1 col-end-4 text-white bg-black pl-28 pr-28">
+          <Footer />
+        </div>
       </div>
     </>
   );
