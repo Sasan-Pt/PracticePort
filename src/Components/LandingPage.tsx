@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <Fragment>
       <div className="col-start-2 col-end-3 text-white">
-        <Header ButtonColor="border-white" />
+        <Header ButtonColor="border-white" LastColor="null" />
         {ctx?.mRespon && <Main />}
       </div>
       {ctx?.mRespon && (

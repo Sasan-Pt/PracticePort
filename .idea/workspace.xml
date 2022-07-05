@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f6c14b-7f93-47f3-9a24-5624e24c05b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/AltPages/Contact/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ContactSubPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Endstudio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/Endstudio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/overlapp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Studio/Components/overlapp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AltPages/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AltPages/Contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ContactSubPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactSubPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Components/ResMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Components/ResMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Components/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Components/hamburger.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/StudioSubPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StudioSubPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WorkSubPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkSubPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +135,10 @@
       <workItem from="1656580601484" duration="5033000" />
       <workItem from="1656668514661" duration="9614000" />
       <workItem from="1656749612579" duration="11803000" />
-      <workItem from="1656853676267" duration="7504000" />
+      <workItem from="1656853676267" duration="8274000" />
+      <workItem from="1656921075711" duration="7079000" />
+      <workItem from="1656937213704" duration="1664000" />
+      <workItem from="1657005764124" duration="9154000" />
     </task>
     <servers />
   </component>

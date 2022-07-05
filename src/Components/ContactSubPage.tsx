@@ -7,7 +7,7 @@ const ContactSubPage = () => {
   return (
     <>
       <div className="col-start-2 col-end-3">
-        <Header ButtonColor="text-black " />
+        <Header ButtonColor="text-black " LastColor="text-black border-black" />
         <div className="clear-both"></div>
         <Contact />
       </div>

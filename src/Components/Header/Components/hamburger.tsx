@@ -1,19 +1,29 @@
 import React, { useContext } from "react";
 import { MenuOutlined } from "@ant-design/icons";
 import Context from "../../Context/Context";
-import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Hamburger = () => {
+type Props = {
+  ButtonColor: string | null;
+};
+const Hamburger = ({ ButtonColor }: Props) => {
+  console.log(ButtonColor);
   const ctx = useContext(Context);
   let color = null;
+  if (ButtonColor) {
+    color = ButtonColor;
+  }
 
   return (
-    <div
-      onClick={ctx?.clicker}
-      className="flex cResH:hidden text-white justify-between"
-    >
-      <div className={`flex mt-14 justify-between ${color}`}>adaptable</div>
-      <div className={`mt-14 ${color}`}>
+    <div className={`flex cResH:hidden text-white justify-between ${color}`}>
+      <Link
+        to="/"
+        className={`flex mt-14 justify-between ${color}`}
+        onClick={ctx?.setMRespan}
+      >
+        adaptable
+      </Link>
+      <div onClick={ctx?.clicker} className={`mt-14 ${color}`}>
         <MenuOutlined style={{ fontSize: "30px" }} />
       </div>
     </div>

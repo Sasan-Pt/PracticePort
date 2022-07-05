@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import AntButton from "../Button";
 
 import { Link } from "react-router-dom";
@@ -7,22 +7,33 @@ import ResMenu from "./Components/ResMenu";
 import Context from "../Context/Context";
 type Props = {
   ButtonColor: string | null;
+  LastColor: string | null;
 };
-const Header = ({ ButtonColor }: Props) => {
+const Header = ({ ButtonColor, LastColor }: Props) => {
   const ctx = useContext(Context);
 
+  useEffect(() => {
+    if (!ctx?.mRespon) {
+      document.body.style.background = "#765cff";
+    }
+  });
+
   let color = null;
+  let resColor = null;
   if (ButtonColor) {
     color = ButtonColor;
+  }
+  if (LastColor) {
+    resColor = LastColor;
   }
 
   if (ctx?.mRespon) {
     return (
       <div className="bg-transparent">
-        <Hamburger />
+        <Hamburger ButtonColor={color} />
         <nav className="mt-14 text-xl font-bold cResp:hidden">
           <ul>
-            <Link to="/" className="float-left">
+            <Link to="/" className="float-left" onClick={ctx?.setMRespan}>
               adaptable.
             </Link>
             <Link to="/Invalid" className="float-right pl-8 ">
@@ -45,8 +56,8 @@ const Header = ({ ButtonColor }: Props) => {
   }
   return (
     <>
-      <Hamburger />
-      <ResMenu />
+      <Hamburger ButtonColor={color} />
+      <ResMenu ButtonColor={color} LastColor={resColor} />
     </>
   );
 };
