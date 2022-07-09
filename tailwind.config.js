@@ -47,6 +47,25 @@ module.exports = {
       colors: {
         "silver-grey": "#f6f6f6",
       },
+      animation: {
+        jiggle: "wiggle 3s  1",
+      },
+      keyframes: {
+        wiggle: {
+          "0%": {
+            opacity: 0,
+            transition: "opacity 1s",
+          },
+          "50%": {
+            opacity: 0.5,
+            transition: "opacity 1s",
+          },
+          "100%": {
+            opacity: 1,
+            transition: "opacity 1s",
+          },
+        },
+      },
     },
   },
   variants: {

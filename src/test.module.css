@@ -1,0 +1,8 @@
+.classes{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    opacity:1;
+
+    transform: translateY(10rem);
+    transition: opacity  6s ease-out, transform 8s;
+}

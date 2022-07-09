@@ -4,9 +4,9 @@ import { PlayCircleFilled } from "@ant-design/icons";
 import { hover } from "@testing-library/user-event/dist/hover";
 
 const Videos = () => {
-  /*  const vidUrl =
-    "https://player.vimeo.com/external/552920337.hd.mp4?s=fc1d339bfa1a05402e9444ecdab95d8d4b266474&profile_id=175";*/
-  const vidUrl = "sadasdas";
+  const vidUrl =
+    "https://player.vimeo.com/external/552920337.hd.mp4?s=fc1d339bfa1a05402e9444ecdab95d8d4b266474&profile_id=175";
+  /* const vidUrl = "sadasdas";*/
   return (
     <Fragment>
       <div className="flex">

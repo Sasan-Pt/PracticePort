@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
+import Button from "../../Button";
 
 const Contact = () => {
   useEffect(() => {
@@ -29,6 +30,9 @@ const Contact = () => {
             Tell us about your project goals and timeframe in one line.
           </div>
           <input className="w-40p bg-silver-grey h-[10vh] text-4xl mt-8 cResp:w-full" />
+          <div className="mt-14">
+            <Button stylee="text-black border-black hover:text-black hover:bg-white hover:border-black" />
+          </div>
         </form>
         <div className="flex flex-col basis-20pe  cResp:basis-full cResp:flex-row cResp:mt-16 cResp:justify-between">
           <div className="flex flex-col ">
